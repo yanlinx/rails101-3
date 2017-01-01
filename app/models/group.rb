@@ -1,6 +1,6 @@
 class Group < ApplicationRecord
   belongs_to :user
-  has_mang :posts
+  has_many :posts
   validates :title,presence: true
 
 end
